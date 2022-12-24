@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ahmed Elwakeel Microsoft, Microsoft, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+D:\ARM Programs\FWD Project #3\Static Arc\Static Arch.uvprojx
+Project File Date:  12/05/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'CTOS'
+compiling main.c...
+CTOS\Application\main.c(4): warning:  #951-D: return type of function "main" must be "int"
+  void main(void)
+CTOS\Application\main.c(7): warning:  #1-D: last line of file ends without a newline
+  }
+CTOS\Application\main.c: 2 warnings, 0 errors
+compiling Buzzer.c...
+CTOS\HAL\Buzzer.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "Buzzer.h"
+CTOS\HAL\Buzzer.c: 1 warning, 0 errors
+compiling Comm.c...
+CTOS\Service\Comm.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "Comm.h"
+CTOS\Service\Comm.c: 1 warning, 0 errors
+compiling Door.c...
+CTOS\HAL\Door.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "Door.h"
+CTOS\HAL\Door.c: 1 warning, 0 errors
+compiling Lights.c...
+CTOS\HAL\Lights.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "Lights.h"
+CTOS\HAL\Lights.c: 1 warning, 0 errors
+compiling Speed.c...
+CTOS\HAL\Speed.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "Speed.h"
+CTOS\HAL\Speed.c: 1 warning, 0 errors
+compiling Switch.c...
+CTOS\HAL\Switch.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "Switch.h"
+CTOS\HAL\Switch.c: 1 warning, 0 errors
+compiling CAN.c...
+CTOS\MCAL\CAN.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "CAN.h"
+CTOS\MCAL\CAN.c: 1 warning, 0 errors
+compiling DIO.c...
+CTOS\MCAL\DIO.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "DIO.h"
+CTOS\MCAL\DIO.c: 1 warning, 0 errors
+compiling ICU.c...
+CTOS\MCAL\ICU.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "ICU.h"
+CTOS\MCAL\ICU.c: 1 warning, 0 errors
+compiling Timer.c...
+CTOS\MCAL\Timer.c(1): warning:  #1-D: last line of file ends without a newline
+  #include "Timer.h"
+CTOS\MCAL\Timer.c: 1 warning, 0 errors
+compiling portASM.c...
+compiling tasks.c...
+compiling list.c...
+compiling queue.c...
+compiling port.c...
+compiling heap_2.c...
+linking...
+.\Objects\Static Arch.axf: Error: L6320W: Ignoring --entry command. Cannot find argument 'Reset_Handler'.
+.\Objects\Static Arch.axf: Warning: L6320W: Ignoring --first command. Cannot find argument '__Vectors'.
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 1 warning and 1 error messages.
+".\Objects\Static Arch.axf" - 1 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_CTOS
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
